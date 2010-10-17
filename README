@@ -1,0 +1,7 @@
+Instructions to compile & run :
+
+complile the source file with :
+g++ -o someplayerd  `pkg-config --cflags --libs gstreamer-0.10 glib-2.0` someplayerd.c
+
+to run the somplayerd:
+./someplayerd <path_to_Mp3file>
